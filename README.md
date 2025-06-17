@@ -1,0 +1,2 @@
+# MATLAB-simulink-pytorch_model-python-
+对于在MATLAB中使用已经基于pytorch训练好的深度学习模型，首先基于标准的网络架构可直接使用MATLAB官方的命令（参见方案一）；对于适应不同任务所设计的异构深度学习模型，有一些算子在MATLAB中底层中还没有优化，需要联合python去使用深度学习模型，这样也避免了模型在MATLAB无法初始化等等问题（参见方案二）
